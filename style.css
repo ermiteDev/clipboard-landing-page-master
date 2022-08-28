@@ -244,6 +244,7 @@ body {
     margin-top: 12rem;
   }
   .section-workflow {
+    margin-top: 10rem;
     padding: 0px 15vw;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -259,8 +260,12 @@ body {
     justify-self: center;
     text-align: center;
   }
-  .section-workflow-blacklists, .section-workflow-snippets, .section-workflow-preview {
-    margin-top: 10rem;
+  .section-workflow-snippets, .section-workflow-preview {
+    margin-top: 7rem;
+    width: min(100%, 30rem);
+  }
+  .section-workflow-blacklists {
+    margin-top: 8.8rem;
     width: min(100%, 30rem);
   }
   .section-workflow-blacklists img {
@@ -268,11 +273,15 @@ body {
     width: 40px;
   }
   .section-logos {
+    margin-top: 20rem;
     flex-direction: row;
   }
   .section-logos img:not(:last-child) {
     margin-bottom: 0;
     margin-right: 9rem;
+  }
+  .section-download {
+    margin-top: 20rem;
   }
   .section-download-btn {
     display: flex;
